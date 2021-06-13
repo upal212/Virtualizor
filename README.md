@@ -3,7 +3,10 @@ Virtualizor VPS Control Panel
 
 1. Install virtualizor from the official site.
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master/install.sh -O install.sh; chmod 755 install.sh;./install.sh email=your@email.com kernel=kvm 2>&1|tee install.log
+email='your@email.com'
+kernel='kvm'
+interface='eno1'
+wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master/install.sh -O install.sh; chmod 755 install.sh;./install.sh email=$email kernel=$kernel interface=$interface 2>&1|tee install.log
 ```
 
 
