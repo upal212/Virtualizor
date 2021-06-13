@@ -3,7 +3,7 @@ Virtualizor VPS Control Panel
 
 1. Install virtualizor from the official site.
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/janovas/Virtualizor/master/install.sh -O install.sh; chmod 755 install.sh;./install.sh email=your@email.com kernel=xen 2>&1|tee install.log
+wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master/install.sh -O install.sh; chmod 755 install.sh;./install.sh email=your@email.com kernel=xen 2>&1|tee install.log
 ```
 
 
@@ -14,7 +14,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/janovas/Virtualizo
 
 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/janovas/Virtualizor/master/virtualizorTHN.sh -O virtualizorTHN.sh; chmod 755 virtualizorTHN.sh;./virtualizorTHN.sh 2>&1|tee virtualizorTHN.log
+wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master/virtualizorTHN.sh -O virtualizorTHN.sh; chmod 755 virtualizorTHN.sh;./virtualizorTHN.sh 2>&1|tee virtualizorTHN.log
 ```
 
 TuhanTS
