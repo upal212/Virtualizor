@@ -54,11 +54,11 @@ if [ "$OS" = Ubuntu ] ; then
 	
 		VER=$(lsb_release -r | cut -f2)
 		
-		if  [ "$VER" != "12.04" -a "$VER" != "14.04" -a "$VER" != "16.04" ]; then
-			echo "Softaculous Virtualizor only supports Ubuntu 12.04 LTS, Ubuntu 14.04 LTS and Ubuntu 16.04 LTS"
-			echo "Exiting installer"
-			exit 1;
-		fi
+# 		if  [ "$VER" != "12.04" -a "$VER" != "14.04" -a "$VER" != "16.04" ]; then
+# 			echo "Softaculous Virtualizor only supports Ubuntu 12.04 LTS, Ubuntu 14.04 LTS and Ubuntu 16.04 LTS"
+# 			echo "Exiting installer"
+# 			exit 1;
+# 		fi
 
 		if ! [ -f /etc/default/grub ] ; then
 			echo "Softaculous Virtualizor only supports GRUB 2 for Ubuntu based server"
