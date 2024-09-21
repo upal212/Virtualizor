@@ -19,5 +19,3 @@ wget --no-check-certificate https://raw.githubusercontent.com/upal212/Virtualizo
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/upal212/Virtualizor/master/virtualizorTHN.sh -O virtualizorTHN.sh; chmod 755 virtualizorTHN.sh;./virtualizorTHN.sh 2>&1|tee virtualizorTHN.log
 ```
-
-TuhanTS
