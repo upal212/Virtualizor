@@ -8,7 +8,7 @@ setenforce 0 >> /dev/null 2>&1
 #iptables -P INPUT ACCEPT >> /dev/null 2>&1
 
 #FILEREPO=http://files.virtualizor.com
-FILEREPO=https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master
+FILEREPO=https://raw.githubusercontent.com/upal212/Virtualizor/master
 LOG=/root/virtualizor.log
 
 #----------------------------------
@@ -181,7 +181,7 @@ mkdir /usr/local/emps >> $LOG 2>&1
 mkdir /usr/local/virtualizor >> $LOG 2>&1
 
 echo "1) Installing PHP, MySQL and Web Server" >> $LOG 2>&1
-wget -N -O /usr/local/virtualizor/EMPS.tar.gz "http://files.softaculous.com/emps.php?arch=$ARCH" >> $LOG 2>&1
+wget -N -O /usr/local/virtualizor/EMPS.tar.gz "http://files.softaculous.com/emps.php?latest=1&arch=$ARCH" >> $LOG 2>&1
 
 # Extract EMPS
 tar -xvzf /usr/local/virtualizor/EMPS.tar.gz -C /usr/local/emps >> $LOG 2>&1
