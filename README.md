@@ -6,7 +6,7 @@ Virtualizor VPS Control Panel
 email='your@email.com'
 kernel='kvm'
 interface='eno1'
-wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master/install.sh -O install.sh; chmod 755 install.sh;./install.sh email=$email kernel=$kernel interface=$interface 2>&1|tee install.log
+wget --no-check-certificate https://raw.githubusercontent.com/upal212/Virtualizor/master/install.sh -O install.sh; chmod 755 install.sh;./install.sh email=$email kernel=$kernel interface=$interface 2>&1|tee install.log
 ```
 
 
@@ -17,7 +17,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtual
 
 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/master/virtualizorTHN.sh -O virtualizorTHN.sh; chmod 755 virtualizorTHN.sh;./virtualizorTHN.sh 2>&1|tee virtualizorTHN.log
+wget --no-check-certificate https://raw.githubusercontent.com/upal212/Virtualizor/master/virtualizorTHN.sh -O virtualizorTHN.sh; chmod 755 virtualizorTHN.sh;./virtualizorTHN.sh 2>&1|tee virtualizorTHN.log
 ```
 
 TuhanTS
