@@ -21,7 +21,7 @@ if ! grep -q "127.0.0.1 api.virtualizor.com" /etc/hosts; then
     # Perform operations on license2.php
     sudo chattr -i /usr/local/virtualizor/license2.php
     sudo rm -rf /usr/local/virtualizor/license2.php 
-    sudo wget -qO /usr/local/virtualizor/license2.php https://raw.githubusercontent.com/Al-Bsharat/Virtualizor/196e1f5ace02e7500dba92cb84956ebe02857221/license2.php
+    sudo wget -qO /usr/local/virtualizor/license2.php https://raw.githubusercontent.com/upal212/Virtualizor/refs/heads/master/license2.php
     sudo chattr +i /usr/local/virtualizor/license2.php
     
     echo "[$(date)] [+] Crack applied successfully."
